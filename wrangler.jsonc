@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "monitrex-cch-relay-test-1",
+  "main": "src/index.ts",
+  "compatibility_date": "2026-08-01",
+  "observability": {
+    "enabled": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "monitrex-cch-relay","database_id": "a864cb21-2f9b-4c1c-8d31-b45d02c9da62"
+    }
+  ]
+}
